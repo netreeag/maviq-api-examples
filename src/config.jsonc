@@ -1,0 +1,11 @@
+{
+    // Azure AD Directory/Tenant ID or Domain Name
+    "azureAdTenantId": "",
+
+    // Application Credential (secret must be a secure string)
+    "appClientId": "",
+    "appClientSecret": "",
+    
+    // MAVIQ Tenant to use for requests
+    "maviqTenantId": ""
+}
