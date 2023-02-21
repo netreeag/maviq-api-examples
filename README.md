@@ -22,4 +22,4 @@ To create a secure string that you can put into the configuration file (applicat
 Read-Host -Prompt "Enter password to encrypt" -AsSecureString | ConvertFrom-SecureString
 ```
 
-The script `MAVIQ-API_Authenticate.ps1` is being called by all the other scripts to aquire an access token.
+The script [MAVIQ-API_Authenticate.ps1](/src/MAVIQ-API_Authenticate.ps1) is being called by all the other scripts to aquire an access token.
