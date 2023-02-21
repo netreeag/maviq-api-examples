@@ -19,7 +19,7 @@ Fill out the configuration file `config.jsonc` and test the example scripts.
 To create a secure string that you can put into the configuration file (application client secret) you can use the following command:
 
 ```powershell
-"password123" | ConvertTo-SecureString -AsPlainText -Force | ConvertFrom-SecureString
+Read-Host -Prompt "Enter password to encrypt" -AsSecureString | ConvertFrom-SecureString
 ```
 
 The script `MAVIQ-API_Authenticate.ps1` is being called by all the other scripts to aquire an access token.
